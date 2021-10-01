@@ -4,7 +4,7 @@ body {
 }
 
 #background {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -13,10 +13,18 @@ body {
     z-index: -1;
 }
 
+
+
+
+
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #131313;
     color: white;
     height: 8vh;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,13 +36,138 @@ body {
     font-size: 32px;
 }
 
-#links {
+#header #links {
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
+
 #links a {
     font-size: 24px;
     text-decoration: none;
-    color: white;
+    color: rgb(200, 200, 200);
     font-family: 'Times New Roman';
+}
+
+
+
+
+
+#white-space {
+    height: 50vh;
+}
+
+
+
+
+
+#info {
+    min-height: 50vh;
+    background-color: #131313;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    color:rgb(200, 200, 200);
+}
+
+#info .text {
+    max-width: 25vw;
+}
+
+#info .text h1 {
+    margin: 0px;
+    font-size: 7vh;
+}
+
+#info .text p {
+    font-size: 3vh;
+}
+
+#info .text button {
+    font-size: 2vh;
+    padding: 1px 6px;
+}
+
+#info img {
+    width: 30vw;
+    height: auto;
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+
+
+
+
+#products {
+    background-color: rgb(200, 200, 200);
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    gap: 30px;
+}
+
+#products h1 {
+    font-size: 50px;
+    margin-top: 10vh;
+}
+
+#products #products-links {
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.product-link {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#products #products-links img {
+    width: 300px;
+    height: auto;
+    border-radius: 2.5%;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+#products #products-links h2 {
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #131313;
+}
+
+
+
+
+
+#customers {
+    background-color: rgb(175, 175, 175);
+}
+
+
+
+
+
+#contact {
+    background-color: rgb(200, 200, 200);
+}
+
+
+
+
+
+#footer {
+    height: 8vh;
+    background-color: #131313;
 }

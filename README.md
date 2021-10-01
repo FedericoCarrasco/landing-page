@@ -2,7 +2,7 @@ This is mi fictional coffee shop webpage for "The Odin Project" landing page pro
 
 The pictures where taken from pexels.com, credits:
 
-- Background: @polina-tankilevitch
+- Background: @negativespace
 - Take away: @sarah-chai
 - Coffe: @kevinmenajang
 - Tea: @fotios-photos

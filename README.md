@@ -6,5 +6,5 @@ The pictures where taken from pexels.com, credits:
 - Take away: @sarah-chai
 - Coffe: @kevinmenajang
 - Tea: @fotios-photos
-- Juice: @fotios-photos
+- Smoothie: @fotios-photos
 - Milkshake: @horizon-content-2100060

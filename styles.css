@@ -52,8 +52,8 @@ body {
 
 
 
-#white-space {
-    height: 50vh;
+#start {
+    height: 40vh;
 }
 
 
@@ -61,7 +61,7 @@ body {
 
 
 #info {
-    min-height: 50vh;
+    min-height: 55vh;
     background-color: #131313;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
@@ -177,7 +177,7 @@ body {
 
 .review {
     width: 300px;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(200, 200, 200);
     border-radius: 2%;
     display: flex;
     justify-content: center;
@@ -190,15 +190,60 @@ body {
 
 
 
-#contact {
-    background-color: rgb(200, 200, 200);
+
+#sign-up {
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#sign-up-div {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+    color: rgb(60, 45, 30);
+    background-color: rgb(200, 200, 200);
+    border-radius: 5%;
+    padding: 20px 30px;
+}
 
+#sign-up-div .text {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 
+#sign-up-div .text h2 {
+    margin: 5px;
+    font-size: 60px;
+}
 
+#sign-up-div .text p {
+    margin: 5px;
+    font-size: 20px;
+}
+
+#sign-up-div button {
+    background-color: rgb(60, 45, 30);
+    border: 2px solid rgb(60, 45, 30);
+    color: rgb(200, 200, 200);
+    border-radius: 10%;
+    align-self: flex-end;
+    padding: 10px;
+    font-size: 18px;
+}
 
 #footer {
-    height: 8vh;
+    height: 15vh;
     background-color: #131313;
+    color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
